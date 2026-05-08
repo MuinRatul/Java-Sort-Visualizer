@@ -1,6 +1,5 @@
 import java.awt.*;
 import javax.swing.*;
-import javax.swing.border.LineBorder;
 
 public class Visualizer{
     private int height=550; 
