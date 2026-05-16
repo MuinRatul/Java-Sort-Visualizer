@@ -4,13 +4,17 @@ A Java-based desktop application that provides real-time visual animations of cl
 
 ---
 
-## 🖼️ Preview
+## 🖼️ Screenshots
 
-The visualizer renders **100 bars** of varying heights representing array values. During sorting:
-- **Black bar** → the element currently being compared/moved (primary pointer)
-- **White bar** → the secondary element being compared against
-- **Gray bars** → unsorted/idle elements
-- **All white** → sorting complete ✅
+### Default Layout
+![Default Layout](Images/Default.png)
+
+### Sorting
+![Sorting](Images/Sorting.png)
+
+### Finish Layout
+![After Sorting](Images/Done.png)
+
 
 ---
 

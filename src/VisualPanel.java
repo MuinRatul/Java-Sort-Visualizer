@@ -20,12 +20,11 @@ public class VisualPanel extends JPanel{
                 14, 100, 37, 61, 8, 45, 88, 29, 53, 11,
                 76, 20, 67, 5, 94, 31, 58, 13, 80, 24,
                 49, 2, 70, 35, 97, 16, 64, 9, 51, 27,
-                83, 40, 6, 74, 22, 59, 1, 86, 33, 68};
+                83, 40, 6, 74, 22, 59, 1, 86, 33, 68};          
         
-
     VisualPanel(){
         this.setPreferredSize(new Dimension(807,500));
-        this.setBackground(Color.lightGray);
+        this.setBackground(Color.black);
     }
     void sleep(){
         try {
@@ -48,16 +47,16 @@ public class VisualPanel extends JPanel{
             g2.setStroke(new BasicStroke(1));
             //g2.setPaint(Color.gray);
             if(done){
-                g2.setPaint(Color.white);
+                g2.setPaint(Color.green);
             }                
             else if(i == currentIndex1 ){
-                g2.setPaint(Color.black);
+                g2.setPaint(Color.MAGENTA);
             }
             else if(i == currentIndex2){
-                g2.setPaint(Color.white);
+                g2.setPaint(Color.CYAN);
             }
             else{
-                g2.setPaint(Color.GRAY);
+                g2.setPaint(Color.lightGray);
             }
 
             g2.fillRect(x, y, bar_width, bar_height);
