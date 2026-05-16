@@ -15,7 +15,6 @@ A Java-based desktop application that provides real-time visual animations of cl
 ### Finish Layout
 ![After Sorting](Images/Done.png)
 
-
 ---
 
 ## 🚀 Features
